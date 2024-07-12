@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 490 490" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="258.909" y1="69.024" x2="258.909" y2="207.072" id="gradient-1" gradientTransform="matrix(-1.088078, 1.653636, -0.634828, -0.601369, 467.65416, -207.682205)">
+      <stop offset="0" style="stop-color: rgb(255, 255, 255); stop-opacity: 0;"/>
+      <stop offset="1" style="stop-color: rgb(103, 74, 217);"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="362.445" y1="69.024" x2="362.445" y2="207.072" id="gradient-0" gradientTransform="matrix(1.223065, 1.55645, -0.676231, 0.494875, -161.14286, -487.652618)">
+      <stop offset="0" style="stop-color: rgb(252, 160, 8);"/>
+      <stop offset="1" style="stop-color: rgb(255, 255, 255); stop-opacity: 0;"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="362.445" y1="69.024" x2="362.445" y2="207.072" id="gradient-2" gradientTransform="matrix(1.961801, -0.26412, 0.006135, 1.337569, -774.520005, 271.217625)">
+      <stop offset="0" style="stop-color: rgb(59, 134, 103);"/>
+      <stop offset="1" style="stop-color: rgb(255, 255, 255); stop-opacity: 0;"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="362.445" y1="69.024" x2="362.445" y2="207.072" id="gradient-4" gradientTransform="matrix(-1.979031, -0.060125, -0.004162, 1.337573, 862.296251, 162.835643)">
+      <stop offset="0" style="stop-color: rgb(59, 134, 103);"/>
+      <stop offset="1" style="stop-color: rgb(255, 255, 255); stop-opacity: 0;"/>
+    </linearGradient>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 101.247032165527, 33.870693206787)" style="transform-origin: -3px 213.108px;">
+    <g>
+      <path style="fill: url('#gradient-1'); stroke: rgb(168, 166, 166); stroke-miterlimit: 1; vector-effect: non-scaling-stroke; paint-order: fill;" d="M 142.122 -26 L -62.828 247.266 L 142.395 178.95 L 142.122 -26 Z"/>
+      <path style="paint-order: fill; fill: url('#gradient-0'); stroke: rgb(168, 166, 166); stroke-miterlimit: 1; vector-effect: non-scaling-stroke;" d="M 142.395 -26 L 142.395 178.95 L 347.072 247.266 L 142.395 -26 Z"/>
+      <path style="fill: none; stroke-miterlimit: 1; stroke: rgb(168, 166, 166); vector-effect: non-scaling-stroke;" d="M 142.395 178.95 L -62.828 247.266 L 142.122 315.583 L 142.395 178.95 Z"/>
+      <path style="fill: none; stroke-miterlimit: 1; stroke: rgb(168, 166, 166); vector-effect: non-scaling-stroke;" d="M 142.395 178.95 L 142.395 315.583 L 347.072 247.266 L 142.395 178.95 Z"/>
+      <path style="paint-order: fill; fill: url('#gradient-2'); stroke-miterlimit: 1; stroke: rgb(168, 166, 166); vector-effect: non-scaling-stroke; transform-box: fill-box; transform-origin: 50% 50%;" d="M -62.778 267.813 L -62.333 383.652 L 142.344 451.968 L -62.778 267.813 Z" transform="matrix(-0.999997, -0.002417, 0.002417, -0.999997, 0.000072, -0.000101)"/>
+      <path style="paint-order: fill; stroke-miterlimit: 1; stroke: rgb(168, 166, 166); vector-effect: non-scaling-stroke; fill: url('#gradient-4'); transform-box: fill-box; transform-origin: 99.4343% 59.4649%;" d="M 144.547 233.367 L 144.358 349.298 L -60.532 417.38 L 144.547 233.367 Z" transform="matrix(-0.999995, 0.003112, -0.003112, -0.999995, -0.000057, -0.000072)"/>
+    </g>
+  </g>
+</svg>

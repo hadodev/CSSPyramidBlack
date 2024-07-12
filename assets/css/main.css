@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1.57fr 1fr 2.57fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "g1 g2 g2"
+    "g1 g3 g3"
+    "g4 g5 g6";
+    padding: 3%;
+    aspect-ratio: 7 / 4;
+    /* min-width: 300px; */
+    background: #1b1c1b;
+    border-radius: 1vw;
+}
+
+.item {
+    border: 0.1px solid #818281;
+}
+
+.g1 {
+    grid-area: g1;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 0.5vw;
+    font-size: 2vw;
+    background: url("/assets/img/pyramid.svg") center / contain no-repeat;
+}
+.g2 {
+    grid-area: g2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-flow: column nowrap;
+    padding: 1vw;
+    text-size-adjust: auto;
+    p:first-child {
+        font-size: 3vw;
+        color: #818281;
+    }
+    p:last-child {
+        font-size: 4vw;
+    }
+    
+}
+.g3 {
+    grid-area: g3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 1vw;
+    font-size: 8vw;
+    text-size-adjust: auto;
+}
+.g4 {
+    grid-area: g4;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 0.5vw;
+    font-size: 2vw;
+    background: radial-gradient(
+        75% 75% at 100% 0%,
+        #5583705c 0%,
+        #FFFFFF00 100%);
+    p {
+        width: 50%;
+        text-transform: capitalize;
+    }
+    
+}
+.g5 {
+    grid-area: g5;
+    background: url('/assets/img/logo-three-shapes.svg') center / 80% no-repeat;
+}
+.g6 {
+    grid-area: g6;
+    display: flex;
+    flex-flow: column nowrap;
+    p {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 33.33333333%;
+        padding: 1vw;
+        border: 0.1px solid #818281;
+        text-transform: uppercase;
+        color: #f2f3f2;
+        font-size: 2vw;
+    }
+}
+
+@media (max-height: 500px) {
+    body {
+        align-items: normal;
+    }
+}
